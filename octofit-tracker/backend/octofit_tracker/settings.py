@@ -26,7 +26,9 @@ SECRET_KEY = "django-insecure-=sb(jj8khm%8m_l(d2u0=tet&7@(8xo8mth81x)_ne5e=-q%d9
 DEBUG = True
 
 # Allow all hosts
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'opulent-space-capybara-pjvg54gxp9gh6w6g-8000.app.github.dev']
+
+USE_X_FORWARDED_HOST = True
 
 
 # Application definition
